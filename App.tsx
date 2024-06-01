@@ -119,7 +119,6 @@ export default function App() {
                 <View style={styles.inputWrapperBox}>
                   <Text style={styles.heading}>Include lowercase</Text>
                   <BouncyCheckbox
-                    disableBuiltInState
                     isChecked={lowerCase}
                     onPress={() => setLowerCase(!lowerCase)}
                     fillColor="#29AB87"
@@ -128,7 +127,6 @@ export default function App() {
                 <View style={styles.inputWrapperBox}>
                   <Text style={styles.heading}>Include Uppercase letters</Text>
                   <BouncyCheckbox
-                    disableBuiltInState
                     isChecked={upperCase}
                     onPress={() => setupperCase(!upperCase)}
                     fillColor="#FED85D"
@@ -137,7 +135,6 @@ export default function App() {
                 <View style={styles.inputWrapperBox}>
                   <Text style={styles.heading}>Include Numbers</Text>
                   <BouncyCheckbox
-                    disableBuiltInState
                     isChecked={numbers}
                     onPress={() => setNumbers(!numbers)}
                     fillColor="#C9A0DC"
@@ -146,7 +143,6 @@ export default function App() {
                 <View style={styles.inputWrapperBox}>
                   <Text style={styles.heading}>Include Symbols</Text>
                   <BouncyCheckbox
-                    disableBuiltInState
                     isChecked={symbols}
                     onPress={() => setSymbols(!symbols)}
                     fillColor="#FC80A5"
